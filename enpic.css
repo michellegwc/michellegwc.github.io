@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+
+<img src="[your hosted image URL]" class="thumbnail" height="100" width="100" /> 
+
