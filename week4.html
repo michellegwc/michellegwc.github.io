@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+        <title>My</title>
+    <script>
+    function changeImage(){
+        var img= document. getElementById("image");
+        var url1="topro.jpg";
+        var url2="IMG_5888.PNG";
+        
+    
+    if (img.src.match(url1)){
+      //  console.log("yeah it is true");
+        img.src=url2;
+        }else{
+        img.src=url1;
+       }
+       } 
+    //console.log(img, url1, url2);
+    </script>
+    </head>
+    <body>
+    <img src="topro.jpg" id="image" alt="robot" height="250" width="250"/>
+   
+    <button id="btn" onclick="changeImage()"> Click me! </button>
+    
+    </body>
+</html>
